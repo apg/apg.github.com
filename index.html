@@ -3,7 +3,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-   <title>apgwoz</title>
+   <title>Andrew Gwozdziewycz - Project timeline</title>
    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
    <meta http-equiv="Content-Language" content="en-us" />
    <style type="text/css">
@@ -17,93 +17,219 @@
      }
      #wrapper {
         color: #001c10;
-        width:800px;
-        font-size: 1.6em;
-     }
-     p {
-        font-family: monospace;
-     }
-     strong a {
-        text-decoration: none;
+        width: 800px;
+        font-size: 1.4em;
      }
      a {
         color: #000;
+     }
+     div.project p {
+        line-height: 1.4em;
+        margin: 0 0 1.0em 0;
+     }
+     span.name {
+        font-weight: bold;
+     }
+     span.name a {
+        text-decoration: none;
+     }
+     span.tag {
+        font-size: .8em;
+        background-color: #ffc;
+        border: 1px dotted #fc6;
+        padding: 1px;
+        color: #777;
+        text-transform: uppercase;
+     }
+     span.date {
+        color: #888;
      }
    </style>
 </head>
 <body>
    <div id="wrapper">
       <div id="content">
-         <h1>Hi, I'm Andrew.</h1>
-         <p><strong><a href="https://github.com/apg/markupdown">Markupdown</a></strong> [web] [python] April 2014</p>
-<p><a href="http://markupdown.herokuapp.com/">Markupdown</a> is a simple web service
-for converting between
-<a href="https://en.wikipedia.org/wiki/Markdown">markdown</a> and
-<a href="https://en.wikipedia.org/wiki/Html">HTML</a>. It was written primarily
-to test out Heroku.</p>
-<p><strong><a href="https://github.com/apg/moka-mode">moka-mode</a></strong> [emacs] [java] October 2013--present</p>
-<p>Moka is an Emacs minor mode for editing Java. It attempts to be very minimalist,
-integrates with YASsnippet for cracking down on boilerplate and uses ETAGS for
-code navigation.</p>
-<p><strong><a href="https://github.com/apg/keyfavors">keyfavors</a></strong> [gpg] [privacy] [shell] February 2014</p>
+         <h1>Andrew Gwozdziewycz</h1>
+         <div class="project">
+            <span class="name"><a href="https://github.com/apg/markupdown">Markupdown</a></span> <span class="tag">web</span> <span class="tag">python</span> <span class="date">April 2014</span>
+            <p><a href="http://markupdown.herokuapp.com/">Markupdown</a> is a simple web service
+               for converting between
+               <a href="https://en.wikipedia.org/wiki/Markdown">markdown</a> and
+               <a href="https://en.wikipedia.org/wiki/Html">HTML</a>. It was written primarily
+               to test out <a href="http://heroku.com">Heroku</a>.</p>
+         </div>
+
+         <div class="project">
+            <span class="name"><a href="https://github.com/apg/moka-mode">moka-mode</a></span> <span class="tag">emacs</span> <span class="tag">java</span> <span class="date">October 2013&mdash;present</span>
+            <p>Moka is an Emacs minor mode for editing Java. It attempts to be very minimalist,
+               integrates with YASsnippet for cracking down on boilerplate and uses ETAGS for
+               code navigation.</p>
+         </div>
+         <div class="project">
+            <span class="name"><a href="https://github.com/apg/keyfavors">keyfavors</a></span> <span class="tag">gpg</span> <span class="tag">privacy</span> <span class="tag">shell</span> <span class="date">February 2014</span>
 <p>Keyfavors is a simple script which makes it easy for attendees of a
 Key-signing Party to sign a bunch of GPG keys. The host provides a
 file which includes the key id, fingerprint, name, email address and keyfavors
 takes the user interactively through all of them.</p>
-<p><strong><a href="https://github.com/apg/when">when</a></strong> [shell] [c] December 2013</p>
+         </div>
+
+         <div class="project">
+            <span class="name"><a href="https://github.com/apg/when">when</a></span> <span class="tag">shell</span> <span class="tag">c</span> <span class="date">December 2013</span>
 <p>when is a simple unix shell utility which allows you to run a command repeatedly until
 it succeeds (with some flexibility on what that means) and then run another. The flexibility
 comes in in that the command not dying for N seconds can be the success signal, instead
 of the returned status code.</p>
-<p><strong><a href="https://github.com/apg/anglife">anglife</a></strong> [javascript] [angular.js] July 2013</p>
+         </div>
+
+         <div class="project">
+            <span class="name"><a href="https://github.com/apg/anglife">anglife</a></span> <span class="tag">javascript</span> <span class="tag">angular.js</span> <span class="date">July 2013</span>
 <p><a href="https://apg.github.io/anglife">Anglife</a> is a simple version of <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway's Game of Life</a> written in <a href="http://www.angularjs.org/">Angular.js</a>.</p>
-<p><strong><a href="https://github.com/apg/angmines">angmines</a></strong> [javascript] [angular.js] August 2013</p>
-<p><a href="https://apg.github.io/angmines">Angmines</a> is a simple version of Minesweeper written in <a href="http://www.angularjs.org/">Angular.js</a>.</p>
-<p><strong><a href="https://github.com/malgorithms/toffee">toffee</a></strong> [coffeescript] [templating] January 2013</p>
+         </div>
+
+         <div class="project">
+            <span class="name"><a href="https://github.com/apg/angmines">angmines</a></span> <span class="tag">javascript</span> <span class="tag">angular.js</span> <span class="date">August 2013</span>
+            <p><a href="https://apg.github.io/angmines">Angmines</a> is a simple version of Minesweeper written in <a href="http://www.angularjs.org/">Angular.js</a>.</p>
+         </div>
+
+         <div class="project">
+            <span class="name"><a href="https://github.com/malgorithms/toffee">toffee</a></span> <span class="tag">coffeescript</span> <span class="tag">templating</span> <span class="date">January 2013</span>
 <p>I rewrote portions of the code generation for the toffee templating language, compiling to closures, which resulted in significant performance improvements (as much as 10x in some cases).</p>
-<p><strong><a href="https://github.com/apg/phizer">phizer</a></strong> [python] [tornado] March 2012 - December 2014</p>
+         </div>
+
+         <div class="project">
+            <span class="name"><a href="https://github.com/apg/phizer">phizer</a></span> <span class="tag">python</span> <span class="tag">tornado</span> <span class="date">March 2012 - December 2014</span>
 <p>Phizer is a dynamic image resizing proxy that can talk to a number of image servers. Phizer can do caching of the remote fetched images, as well as the processed images. Put a CDN in front of this, and you've got yourself a pretty nice prescription for resizing.</p>
-<p><strong><a href="https://github.com/apg/cfdg-scm">cfdg-scm</a></strong> [scheme] [cairo] December 2012</p>
+         </div>
+
+         <div class="project">
+            <span class="name"><a href="https://github.com/apg/cfdg-scm">cfdg-scm</a></span> <span class="tag">scheme</span> <span class="tag">cairo</span> <span class="date">December 2012</span>
 <p>A language, inspired by CFDG, which renders images using Cairo, written in Guile Scheme.</p>
-<p><strong><a href="https://github.com/apg/recat">recat</a></strong> [python] October 2011</p>
+         </div>
+
+         <div class="project">
+            <span class="name"><a href="https://github.com/apg/recat">recat</a></span> <span class="tag">python</span> <span class="date">October 2011</span>
 <p>Recat is a log replay tool that replays the log, timed, as it was originally played. In other words, if log events happened an hour apart, recat would display them an hour apart. It supports the ability to scale up, or slow down the event timing.</p>
-<p><strong><a href="https://github.com/apg/quickpass">quickpass</a></strong> [shell] [gpg] August 2011</p>
+         </div>
+
+         <div class="project">
+            <span class="name"><a href="https://github.com/apg/quickpass">quickpass</a></span> <span class="tag">shell</span> <span class="tag">gpg</span> <span class="date">August 2011</span>
 <p>QuickPass is a set of 2 shell scripts that I've been using for quite a few years to keep my passwords safe. It makes use of GPG's symmetric encryption to store, well, passwords, and provides a simple way to look them up--the passlook command.</p>
-<p><strong><a href="https://github.com/apg/hisp">hisp</a></strong> [haskell] [lisp] November 2011</p>
+         </div>
+
+         <div class="project">
+            <span class="name"><a href="https://github.com/apg/hisp">hisp</a></span> <span class="tag">haskell</span> <span class="tag">lisp</span> <span class="date">November 2011</span>
 <p>A simple Lisp implementation in Haskell using Parsec</p>
-<p><strong><a href="https://github.com/apg/chatter">chatter</a></strong> [scheme] [guile] September 2011</p>
+         </div>
+
+         <div class="project">
+            <span class="name"><a href="https://github.com/apg/chatter">chatter</a></span> <span class="tag">scheme</span> <span class="tag">guile</span> <span class="date">September 2011</span>
 <p>Chatter Bot framework and implementation of Elizabot, inspired by Elizabot, for Guile</p>
-<p><strong><a href="https://github.com/apg/nyanbar">nyanbar</a></strong> [python] [nyancat] August 2011</p>
+         </div>
+
+         <div class="project">
+            <span class="name"><a href="https://github.com/apg/nyanbar">nyanbar</a></span> <span class="tag">python</span> <span class="tag">nyancat</span> <span class="date">August 2011</span>
 <p>A Nyan Cat progress bar for python using terminal escape codes.</p>
-<p><strong><a href="https://github.com/apg/bf">bf</a></strong> [brainfuck] [c] [javascript] July 2011</p>
+         </div>
+
+         <div class="project">
+            <span class="name"><a href="https://github.com/apg/bf">bf</a></span> <span class="tag">brainfuck</span> <span class="tag">c</span> <span class="tag">javascript</span> <span class="date">July 2011</span>
 <p>bf is an optimizing brainfuck interpreter written in C, though the repo does also includ a <a href="http://apg.github.io/bf/">brainfuck stepper</a> written in JavaScript for stepping through code.</p>
-<p><strong><a href="https://github.com/apg/samegame">samegame</a></strong> [clojure] [game] May 2011</p>
+         </div>
+
+         <div class="project">
+            <span class="name"><a href="https://github.com/apg/samegame">samegame</a></span> <span class="tag">clojure</span> <span class="tag">game</span> <span class="date">May 2011</span>
 <p><a href="https://en.wikipedia.org/wiki/Samegame">Samegame</a> is a block matching / collapsing game where the object is to eliminate all the blocks from the board.</p>
-<p><strong><a href="https://github.com/apg/asteroidfight">Astroid Fight</a></strong> [clojure] [game] May 2011</p>
+         </div>
+
+         <div class="project">
+            <span class="name"><a href="https://github.com/apg/asteroidfight">Astroid Fight</a></span> <span class="tag">clojure</span> <span class="tag">game</span> <span class="date">May 2011</span>
 <p>Astroid Fight was an attempt at making a Death Match game, inspired by <a href="https://en.wikipedia.org/wiki/XPilot">XPilot</a>, though it was never finished.</p>
-<p><strong><a href="https://github.com/apg/softserv">softserv</a></strong> [clojure] November 2010</p>
+         </div>
+
+         <div class="project">
+            <span class="name"><a href="https://github.com/apg/softserv">softserv</a></span> <span class="tag">clojure</span> <span class="date">November 2010</span>
 <p>Softserv is a simple server construction kit for <a href="http://clojure.org">Clojure</a> which uses a multi-method like mechanism for dispatching on "events" in network protocols. As a proof of concept it worked out OK, but I didn't really push hard on it to gain adoption.</p>
-<p><strong><a href="https://github.com/apg/bitdb">bitdb</a></strong> [python] [bitly] November 2010</p>
+         </div>
+
+         <div class="project">
+            <span class="name"><a href="https://github.com/apg/bitdb">bitdb</a></span> <span class="tag">python</span> <span class="tag">bitly</span> <span class="date">November 2010</span>
 <p>bitdb is a hack that turns <a href="http://bitly.com">Bitly</a> into a generic key-value store. To exercise it, I wrote a <a href="https://github.com/apg/bitdb/blob/master/examples/todo.py">TODO</a> list supporting full history (essentially a simplified version of git). This won an honorable mention in a Bitly API contest.</p>
-<p><strong><a href="https://github.com/Raynes/tryclojure">Try Clojure</a></strong> [clojure] [html] [css] November 2010</p>
+         </div>
+
+         <div class="project">
+            <span class="name"><a href="https://github.com/Raynes/tryclojure">Try Clojure</a></span> <span class="tag">clojure</span> <span class="tag">html</span> <span class="tag">css</span> <span class="date">November 2010</span>
 <p>I redesigned <a href="http://tryclj.com/">Try Clojure</a>.</p>
-<p><strong><a href="https://github.com/apg/casemaker">casemaker</a></strong> [python] [testing] February 2010 - July 2010</p>
+         </div>
+
+         <div class="project">
+            <span class="name"><a href="https://github.com/apg/casemaker">casemaker</a></span> <span class="tag">python</span> <span class="tag">testing</span> <span class="date">February 2010 - July 2010</span>
 <p>Casemaker is a simple way to write simple test cases in Python. You probably shouldn't use it.</p>
-<p><strong><a href="https://github.com/apg/muxtube">muxtube</a></strong> [python] [youtube] July 2010</p>
+         </div>
+
+         <div class="project">
+            <span class="name"><a href="https://github.com/apg/muxtube">muxtube</a></span> <span class="tag">python</span> <span class="tag">youtube</span> <span class="date">July 2010</span>
 <p>Muxtube was a simplified way to share a "mixtape" of your favorite tunes, inspired by Justin Ouellete's Muxtape (now defunct), which used YouTube videos instead of uploaded MP3s. You can see Justin's original concept still alive in <a href="http://opentape.fm/">Opentape</a>.</p>
-<p><strong><a href="https://github.com/apg/tweetmap">Tweetmap</a></strong> [javascript] [chrome] July 2010</p>
+         </div>
+
+         <div class="project">
+            <span class="name"><a href="https://github.com/apg/tweetmap">Tweetmap</a></span> <span class="tag">javascript</span> <span class="tag">chrome</span> <span class="date">July 2010</span>
 <p>Tweetmap is a Chrome extension which displays a character map icon in the url
 bar when you're on twitter.com. Clicking on the icon will bring up a character
 map.</p>
-<p><strong><a href="https://github.com/apg/fn-php">Fn.php</a></strong> [php] February 2009</p>
+         </div>
+
+         <div class="project">
+            <span class="name"><a href="http://sigusr2.net/2010/Jun/25/google-spreadsheets-game-of-life.html">App Script Game of Life</a></span> <span class="tag">javascript</span> <span class="tag">spreadsheet</span> <span class="date">June 2010</span>
+            <p>When Google Spreadsheets introduced a scripting engine, I felt compelled to do something "interesting." The result was a version of Conway's Game of Life.</p>
+         </div>
+
+         <div class="project">
+            <span class="name"><a href="https://github.com/apg/fn-php">Fn.php</a></span> <span class="tag">php</span> <span class="date">February 2009</span>
 <p>See <a href="http://sigusr2.net/2009/Feb/06/higher-order-php.html">Higher Order PHP</a> for more information.</p>
-<p><strong><a href="https://github.com/apg/activator-el">activator.el</a></strong> [emacs] 2009</p>
+         </div>
+
+         <div class="project">
+            <span class="name"><a href="https://groups.google.com/d/msg/python-tornado/kO87TEkjUI0/DfPDr1zcGLYJ">Tornado reverse urls</a></span> <span class="tag">python</span> <span class="tag">tornado</span> <span class="date">October 2009</span>
+            <p>I added reverse_url to <a href="http://tornadoweb.org">Tornado</a>, though the patch was actually <a href="https://groups.google.com/d/msg/python-tornado/HYqQrV7EqpA/JRzKlXdPKigJ">applied</a> with a few modifications by the Brizzly team.</p>
+         </div>
+
+         <div class="project">
+            <span class="name"><a href="https://github.com/apg/activator-el">activator.el</a></span> <span class="tag">emacs</span> <span class="date">2009</span>
 <p>Activator is like /sbin/init for Emacs. It loads a directory of elisp in sorted order.</p>
-<p><strong><a href="https://github.com/apg/catchgold">catchgold</a></strong> [c] [curses] [game] 2003</p>
+         </div>
+
+         <div class="project">
+            <span class="name"><a href="http://apgwoz.com/experiments/woof/">woof</a></span> <span class="tag">javascript</span> <span class="date">April 2008</span>
+            <p>I built a prototype for a dynamic, drag and drop form builder, which was supposed to be extended to support the generation of a hierarchy of PHP classes for a forms framework I wrote in PHP at the University of Pennsylvania.</p>
+         </div>
+
+         <div class="project">
+            <span class="name"><a href="http://apgwoz.com/fisheye-edit/">Fisheye Editor</a></span> <span class="tag">python</span> <span class="tag">tkinter</span> <span class="date">November 2007</span>
+            <p>I built a prototype for a Fisheye editor. Basically the text around your cursor appears larger than the surrounding text. The zooming factor is easily customizable so it's fairly simple to get a good look at the structure of what you're editing, while still being able to see it's contents. I had planned to write a minor mode for Emacs based on this but it never happened. <a href="http://www.sublimetext.com/">Sublime Text</a> has a "map" view of your code which addresses part of what I was attempting to solve.</p>
+         </div>
+
+         <div class="project">
+            <span class="name">IHADAGREATVIEW</span> <span class="tag">blog</span> <span class="tag">photography</span> <span class="date">July 2005&mdash;February 2012</span>
+            <p>A "daily" photoblog, which used a very old version of PixelPost and got pwnd.</p>
+         </div>
+
+         <div class="project">
+            <span class="name">Photub</span> <span class="tag">blog</span> <span class="tag">django</span> <span class="tag">photography</span> <span class="date">December 2006&mdash;March 2012</span>
+            <p>I had built a link blog on top of Django related to photography. It was moderately successful.</p>
+         </div>
+
+         <div class="project">
+            <span class="name"><a href="http://apgwoz.com/sketch/css-visualization">CSS Visualization</a></span> <span class="tag">visualization</span> <span class="tag">css</span> <span class="date">October 2006</span>
+            <p>A visualization of the one-to-many mapping of CSS selectors to the properties defined within them.</p>
+         </div>
+
+         <div class="project">
+            <span class="name"><a href="https://github.com/apg/catchgold">catchgold</a></span> <span class="tag">c</span> <span class="tag">curses</span> <span class="tag">game</span> <span class="date">2003</span>
 <p>The Goal of the game is to "catch" as much "gold" as you can without paying
 taxes on it. To help you do this, you are given 1 anywhere Taxi pickup and the
 possibility to pick up a giant fan which will blow away the enemies(IRS Agents).</p>
 <p>Steal as much money as you can without being caught.</p>
+         </div>
       </div>
    </div>
 </body>
